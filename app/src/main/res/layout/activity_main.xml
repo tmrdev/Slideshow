@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MyActivity">
+
+    <include android:id="@+id/myToolbar" layout="@layout/toolbar"></include>
+
+    <view
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            class="android.support.v7.widget.RecyclerView"
+            android:id="@+id/recycler_view"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true" android:layout_marginTop="60dp"/>
+
+</RelativeLayout>
